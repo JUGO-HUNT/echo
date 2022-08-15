@@ -1,0 +1,28 @@
+qweather:
+ key: 8be9e4483e3f4a758329518c048ee219
+ geoUrl: https://geoapi.qweather.com/v2/city/lookup?
+ curWeatherUrl: https://devapi.qweather.com/v7/weather/now?
+ dailyWeatherUrl: https://devapi.qweather.com/v7/weather/3d?
+ airUrl: https://devapi.qweather.com/v7/air/now?
+ location: 118.85,31.95 #默认位置信息：经纬度
+remind:
+ love: '2018-09-11'
+ marriage: '2022-05-20'
+ wedding: '2022-10-04'
+tts&asr:
+ AppID: '25935399'
+ APIKey: dE16idD5Qpd9gr8tegs4HwoB
+ SecretKey: LeE4mUACdGUxpOYTCnv6ovs6Fl2f3V0i
+ AsrUrl: 'http://vop.baidu.com/pro_api'
+ AsrTokenUrl: 'http://aip.baidubce.com/oauth/2.0/token'
+ MyVoice: '/home/pi/echo/audio/myVoice.pcm' #录音文件输出路径
+kws:
+ AwakeVoice: '/home/pi/echo/audio/awake.mp3'
+asr_result:
+ res:
+ txt:
+tuling:
+ switchOn: 'off'
+ url: http://openapi.turingapi.com/openapi/api/v2
+ apiKey: b40cd378b2564c9fb6910c9ea36f0e0e
+ userId: 'echo'
